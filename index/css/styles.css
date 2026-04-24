@@ -20,6 +20,10 @@ body {
   background-attachment: fixed;
 }
 
+img {
+  max-width: 100%;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -52,3 +56,229 @@ nav ul li a {
   margin-right: 2rem;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.contedor-principal-productos {
+  background-color: white;
+  flex-basis: 75%;
+  display: flex;
+}
+
+.contedor-principal-productos h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+article {
+  flex-basis: 75%;
+}
+
+.cards {
+  display: flex;
+}
+
+section {
+  flex-basis: 25%;
+  margin: 0.5rem;
+}
+
+.imagen-producto img {
+  object-fit: cover;
+  height: 30rem;
+}
+
+aside {
+  flex-basis: 25%;
+}
+
+aside ul{
+  list-style: none;
+}
+
+aside ul li {
+  display: flex;
+  padding: 0.8rem 0 ;
+  border-bottom: solid;
+  border-color: #ddd;
+}
+
+aside ul li span {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0 .1rem;
+}
+
+aside ul li img {
+  width: 5rem;
+  height: 7rem;
+  object-fit: cover;
+}
+
+.contedor-principal-blogs {
+  display: flex;
+  justify-content: center;
+}
+
+.blogs {
+  flex-basis: 75%;
+  background-color: white;
+}
+
+.blogs h2 {
+  text-align: center;
+}
+
+.blog {
+  border-radius: 9rem;
+  background-color: lightcyan;
+  display: flex;
+  max-height: 40rem;
+  margin: 1.5rem;
+}
+
+.imagen-blog {
+  flex-basis: 20%;
+}
+
+.imagen-blog img {
+  height: 100%;
+}
+
+.contenido-blog {
+  flex-basis: 80%;
+  padding: 4rem;
+}
+
+.contedor-principal-sobre_nosotros {
+  display: flex;
+  justify-content: center;
+}
+
+.sobre_nosotros {
+  background-color: white;
+  flex-basis: 75%;
+  text-align: center;
+}
+
+.sobre_nosotros p {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.contedor-principal-contacto {
+  display: flex;
+  justify-content: center;
+}
+
+.contacto {
+  background-color: white;
+  flex-basis: 75%;
+  text-align: center;
+}
+
+.contacto form {
+  margin: 0 auto;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto form label {
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: start;
+}
+
+.contacto form input {
+  padding: 1rem;
+  font-size: 1.6rem;
+  border-color: #ccc;
+  border-radius: .5rem;
+}
+
+.contacto form textarea {
+  padding: 1rem;
+  font-size: 1.6rem;
+  border-color: #ccc;
+  border-radius: .5rem;
+}
+
+.contacto form button {
+  background-color: black;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contacto form button:hover {
+  color: #333;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.contedor-footer {
+  flex-basis: 75%;
+  background-color: black;
+  color: #eee;
+  border-top: #222;
+}
+
+.contedor-footer h3 {
+  font-size: 2.4rem;
+  line-height: .05rem;
+}
+
+.contedor-footer h4 {
+  font-size: 2.4rem;
+  line-height: .05rem;
+}
+
+.contedor-footer a {
+  color: #eee; 
+}
+
+.contedor-footer-partes {
+  display: flex;
+  border-bottom: solid;
+  border-bottom-color: #333;
+  justify-content: space-around;
+}
+
+.partes-footer {
+  margin-right: 2rem;
+  flex-basis: 25%;
+}
+
+.partes-footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pie {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pie ul {
+  display: flex;
+  list-style: none;
+}
+
+.pie ul li {
+  margin-right: 1rem;
+}
+
+.partes-footer a {
+  text-decoration: none;
+}
+
+.pie p {
+  margin-left: 1rem;
+}
