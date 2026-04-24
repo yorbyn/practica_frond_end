@@ -1,6 +1,7 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 *,
@@ -13,5 +14,41 @@ body {
   font-family: "Coming Soon", cursive;
   font-weight: 400;
   font-style: normal;
+  font-size: 1.6rem;
+  background-image: url(../img/background.jpg);
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  flex-basis: 75%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > a {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  font-size: 2rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
 }
 
